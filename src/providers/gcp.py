@@ -79,11 +79,11 @@ class GCPAnalyzer(ProviderAnalyzer):
                     params = method_obj.get("parameters", {})
                     total_attributes += len(params)
                 
-                # Count payload properties if present
-                request = method_obj.get("request", {})
-                if request:
-                    # Let's add 1 attribute for the request body to keep it simple
-                    total_attributes += 1 
+                    # Count payload properties if present
+                    request = method_obj.get("request", {})
+                    if request:
+                        # Let's add 1 attribute for the request body to keep it simple
+                        total_attributes += 1 
 
             # Recursively process sub-resources
             sub_resources = resource_obj.get("resources")
@@ -98,6 +98,9 @@ class GCPAnalyzer(ProviderAnalyzer):
                     verbs_count[k] += v
                     
         return total_apis, verbs_count, total_attributes
+
+    def get_name(self) -> str:
+        return "GCP"
 
     def analyze_service(self, service_name: str, filter_keywords: Optional[list] = None) -> Optional[APIMetrics]:
         data = self._fetch_spec(service_name)

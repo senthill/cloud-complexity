@@ -5,18 +5,14 @@ from src.schema import APIMetrics
 from src.providers.base import ProviderAnalyzer
 from src.providers.openapi import parse_openapi_spec
 
-class VMWareAnalyzer(ProviderAnalyzer):
+class RailwayAnalyzer(ProviderAnalyzer):
     def get_name(self) -> str:
-        return "VMWare"
-
-    def get_name(self) -> str:
-        return "VMWare"
+        return "Railway"
 
     def analyze_service(self, service_name: str, filter_keywords: Optional[list] = None) -> Optional[APIMetrics]:
-        spec_path = os.path.join("specs", f"vmware_{service_name}.json")
+        spec_path = os.path.join("specs", f"railway_{service_name}.json")
         
         if not os.path.exists(spec_path):
-            print(f"Skipping VMWare analysis: Spec not found at {spec_path}")
             return None
             
-        return parse_openapi_spec("VMWare", service_name, spec_path, filter_keywords=filter_keywords)
+        return parse_openapi_spec("Railway", service_name, spec_path, filter_keywords=filter_keywords)

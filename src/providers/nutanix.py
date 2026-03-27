@@ -9,6 +9,9 @@ class NutanixAnalyzer(ProviderAnalyzer):
     def get_name(self) -> str:
         return "Nutanix"
 
+    def get_name(self) -> str:
+        return "Nutanix"
+
     def analyze_service(self, service_name: str, filter_keywords: Optional[list] = None) -> Optional[APIMetrics]:
         spec_path = os.path.join("specs", f"nutanix_{service_name}.json")
         

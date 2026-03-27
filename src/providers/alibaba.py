@@ -22,6 +22,9 @@ class AlibabaAnalyzer(ProviderAnalyzer):
         # Alternatively, downloading their generic swagger file:
         print(f"Please manually download the Alibaba Swagger/OpenAPI spec for {service_name} to {spec_path}")
 
+    def get_name(self) -> str:
+        return "Alibaba"
+
     def analyze_service(self, service_name: str, filter_keywords: Optional[list] = None) -> Optional[APIMetrics]:
         self._fetch_spec_if_missing(service_name)
         spec_path = self._get_spec_path(service_name)

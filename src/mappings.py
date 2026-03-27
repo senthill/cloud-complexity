@@ -9,7 +9,13 @@ SERVICE_MAPPINGS = {
         "vmware": "compute",
         "nutanix": "compute",
         "vercel": "deployments",
-        "netlify": "sites"
+        "netlify": "sites",
+        "heroku": "apps",
+        "render": "services",
+        "fly": "apps",
+        "digitalocean": "droplets",
+        "railway": "services",
+        "vps": "compute"
     },
     "storage": {
         "aws": "s3",
@@ -41,7 +47,12 @@ SERVICE_MAPPINGS = {
         "aws": "rds",
         "gcp": "sqladmin",
         "azure": "sql",
-        "alibaba": "rds"
+        "alibaba": "rds",
+        "heroku": "postgres",
+        "render": "postgres",
+        "fly": "postgres",
+        "digitalocean": "databases",
+        "railway": "databases"
     },
     "networking": {
         "aws": {"service": "ec2", "filter_keywords": ["vpc", "subnet", "securitygroup", "routetable", "internetgateway", "natgateway", "networkinterface", "networkacl", "vpn", "customergateway", "transitgateway"]},

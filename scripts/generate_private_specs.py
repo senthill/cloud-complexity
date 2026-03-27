@@ -96,15 +96,42 @@ def main():
         json.dump(netlify_spec, f, indent=2)
     print("Generated PaaS specs")
 
-    # Serverless Native Cloud Specs (Mocks for Azure/Alibaba for simplicity)
-    azure_functions_spec = generate_mock_openapi_spec("azure_functions", 35, (1, 2), (2, 5))
-    with open("specs/azure_functions.json", "w") as f:
-        json.dump(azure_functions_spec, f, indent=2)
+    # New Providers (PaaS & Cloud)
+    # Heroku
+    with open("specs/heroku_apps.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("heroku_apps", 52, (1, 2), (2, 5)), f, indent=2)
+    with open("specs/heroku_postgres.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("heroku_postgres", 22, (1, 2), (1, 4)), f, indent=2)
 
-    alibaba_fc_spec = generate_mock_alibaba_spec("alibaba_fc", 42, (1, 2), (2, 6))
-    with open("specs/alibaba_fc.json", "w") as f:
-        json.dump(alibaba_fc_spec, f, indent=2)
-    print("Generated Serverless Cloud specs")
+    # Render
+    with open("specs/render_services.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("render_services", 32, (1, 2), (2, 4)), f, indent=2)
+    with open("specs/render_postgres.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("render_postgres", 16, (1, 2), (1, 3)), f, indent=2)
+
+    # Fly.io
+    with open("specs/fly_apps.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("fly_apps", 42, (1, 2), (2, 5)), f, indent=2)
+    with open("specs/fly_postgres.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("fly_postgres", 12, (1, 2), (1, 3)), f, indent=2)
+
+    # DigitalOcean
+    with open("specs/do_droplets.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("do_droplets", 62, (1, 3), (3, 7)), f, indent=2)
+    with open("specs/do_databases.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("do_databases", 45, (1, 2), (2, 6)), f, indent=2)
+
+    # Railway
+    with open("specs/railway_services.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("railway_services", 26, (1, 2), (2, 4)), f, indent=2)
+    with open("specs/railway_databases.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("railway_databases", 14, (1, 2), (1, 3)), f, indent=2)
+
+    # VPS (Generic)
+    with open("specs/vps_compute.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("vps_compute", 8, (1, 1), (1, 2)), f, indent=2)
+
+    print("Generated all modern PaaS and Cloud specs")
 
 if __name__ == "__main__":
     main()

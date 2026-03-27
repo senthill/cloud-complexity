@@ -10,6 +10,9 @@ class AWSAnalyzer(ProviderAnalyzer):
         super().__init__(specs_dir)
         self.session = botocore.session.get_session()
 
+    def get_name(self) -> str:
+        return "AWS"
+
     def analyze_service(self, service_name: str, filter_keywords: Optional[list] = None) -> Optional[APIMetrics]:
         try:
             # We use an arbitrary region just to instantiate the client and get the model

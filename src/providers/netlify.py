@@ -9,6 +9,9 @@ class NetlifyAnalyzer(ProviderAnalyzer):
     def get_name(self) -> str:
         return "Netlify"
 
+    def get_name(self) -> str:
+        return "Netlify"
+
     def analyze_service(self, service_name: str, filter_keywords: Optional[list] = None) -> Optional[APIMetrics]:
         spec_path = os.path.join("specs", f"netlify_{service_name}.json")
         

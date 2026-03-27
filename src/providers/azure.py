@@ -34,6 +34,9 @@ class AzureAnalyzer(ProviderAnalyzer):
             except Exception as e:
                 print(f"Failed to download Azure spec: {e}")
 
+    def get_name(self) -> str:
+        return "Azure"
+
     def analyze_service(self, service_name: str, filter_keywords: Optional[list] = None) -> Optional[APIMetrics]:
         self._fetch_spec_if_missing(service_name)
         spec_path = self._get_spec_path(service_name)

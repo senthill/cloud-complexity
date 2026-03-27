@@ -11,6 +11,12 @@ from src.providers.vmware import VMWareAnalyzer
 from src.providers.nutanix import NutanixAnalyzer
 from src.providers.vercel import VercelAnalyzer
 from src.providers.netlify import NetlifyAnalyzer
+from src.providers.heroku import HerokuAnalyzer
+from src.providers.render import RenderAnalyzer
+from src.providers.fly import FlyAnalyzer
+from src.providers.digitalocean import DigitalOceanAnalyzer
+from src.providers.railway import RailwayAnalyzer
+from src.providers.vps import VPSAnalyzer
 
 console = Console()
 
@@ -40,7 +46,13 @@ def compare_api(category: str):
         "vmware": VMWareAnalyzer(),
         "nutanix": NutanixAnalyzer(),
         "vercel": VercelAnalyzer(),
-        "netlify": NetlifyAnalyzer()
+        "netlify": NetlifyAnalyzer(),
+        "heroku": HerokuAnalyzer(),
+        "render": RenderAnalyzer(),
+        "fly": FlyAnalyzer(),
+        "digitalocean": DigitalOceanAnalyzer(),
+        "railway": RailwayAnalyzer(),
+        "vps": VPSAnalyzer()
     }
 
     for cat in categories_to_run:
@@ -55,9 +67,12 @@ def compare_api(category: str):
         
         mapping = SERVICE_MAPPINGS[cat]
         
-        for provider, analyzer in analyzers.items():
-            mapping_val = mapping.get(provider)
+        for provider_id, analyzer in analyzers.items():
+            mapping_val = mapping.get(provider_id)
+            
             if not mapping_val:
+                # If provider is defined in the system but doesn't have this service category
+                table.add_row(analyzer.get_name(), "N/A", "N/A", "N/A", "N/A")
                 continue
                 
             if isinstance(mapping_val, dict):
@@ -67,7 +82,7 @@ def compare_api(category: str):
                 service_name = mapping_val
                 filter_keywords = None
                 
-            console.print(f"Analyzing {provider.upper()} ({service_name})...")
+            console.print(f"Analyzing {analyzer.get_name()} ({service_name})...")
             metrics = analyzer.analyze_service(service_name, filter_keywords=filter_keywords)
             
             if metrics:
@@ -79,7 +94,7 @@ def compare_api(category: str):
                     str(metrics.total_attributes)
                 )
             else:
-                table.add_row(provider.upper(), service_name, "N/A", "N/A", "N/A")
+                table.add_row(analyzer.get_name(), service_name, "N/A", "N/A", "N/A")
                 
         console.print(table)
 

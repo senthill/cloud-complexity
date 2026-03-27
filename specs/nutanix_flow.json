@@ -6,7 +6,7 @@
   },
   "paths": {
     "/api/v1/nutanix_flow/resource_0": {
-      "get": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -26,11 +26,6 @@
           },
           {
             "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -73,7 +68,7 @@
       }
     },
     "/api/v1/nutanix_flow/resource_3": {
-      "post": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -84,12 +79,26 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/nutanix_flow/resource_4": {
-      "post": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -105,6 +114,31 @@
       }
     },
     "/api/v1/nutanix_flow/resource_5": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/nutanix_flow/resource_6": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
       "put": {
         "parameters": [
           {
@@ -118,45 +152,10 @@
             "description": "mock param"
           }
         ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/nutanix_flow/resource_6": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
       }
     },
     "/api/v1/nutanix_flow/resource_7": {
-      "patch": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -165,25 +164,15 @@
           },
           {
             "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
         ]
       },
-      "delete": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -191,7 +180,7 @@
       }
     },
     "/api/v1/nutanix_flow/resource_8": {
-      "patch": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -200,6 +189,20 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
             "in": "query",
             "description": "mock param"
           }
@@ -207,7 +210,7 @@
       }
     },
     "/api/v1/nutanix_flow/resource_9": {
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -216,6 +219,11 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -223,7 +231,7 @@
       }
     },
     "/api/v1/nutanix_flow/resource_10": {
-      "patch": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -232,20 +240,10 @@
           }
         ]
       },
-      "post": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -253,29 +251,10 @@
       }
     },
     "/api/v1/nutanix_flow/resource_11": {
-      "post": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -283,20 +262,6 @@
       }
     },
     "/api/v1/nutanix_flow/resource_12": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
       "delete": {
         "parameters": [
           {
@@ -305,9 +270,7 @@
             "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/nutanix_flow/resource_13": {
+      },
       "patch": {
         "parameters": [
           {
@@ -321,11 +284,18 @@
             "description": "mock param"
           }
         ]
-      },
+      }
+    },
+    "/api/v1/nutanix_flow/resource_13": {
       "delete": {
         "parameters": [
           {
             "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -333,6 +303,38 @@
       }
     },
     "/api/v1/nutanix_flow/resource_14": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/nutanix_flow/resource_15": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/nutanix_flow/resource_16": {
       "get": {
         "parameters": [
           {
@@ -343,69 +345,8 @@
         ]
       }
     },
-    "/api/v1/nutanix_flow/resource_15": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/nutanix_flow/resource_16": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
     "/api/v1/nutanix_flow/resource_17": {
-      "post": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -414,30 +355,6 @@
           },
           {
             "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -456,12 +373,17 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/nutanix_flow/resource_19": {
-      "patch": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -475,7 +397,7 @@
           }
         ]
       },
-      "post": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -484,6 +406,11 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
