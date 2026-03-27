@@ -114,12 +114,16 @@ Focus: VPC, Subnet, Firewall, and Service Mesh configuration.
 | Provider | Service | Total APIs | Total Attributes | Complexity Rating |
 | :--- | :--- | :--- | :--- | :--- |
 | **AWS** | EC2/VPC | 249 | 1,128 | ![High](https://img.shields.io/badge/-High-red) |
+| **GCP** | Compute/VPC | 93 | 427 | ![Med](https://img.shields.io/badge/-Med-orange) |
 | **Azure** | Network | 587 | 2,927 | ![High](https://img.shields.io/badge/-High-red) |
 | **Alibaba** | VPC | 310 | 1,710 | ![High](https://img.shields.io/badge/-High-red) |
 | **VMWare** | NSX | 652 | 3,296 | ![High](https://img.shields.io/badge/-High-red) |
 | **Nutanix** | Flow | 31 | 69 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Dig.Ocean**| Networking | 84 | 324 | ![Med](https://img.shields.io/badge/-Med-orange) |
 | **Heroku** | Private Sp. | 20 | 62 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Render** | Networking | 13 | 33 | ![Low](https://img.shields.io/badge/-Low-green) |
 | **Fly.io** | Networking | 29 | 75 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Railway** | Networking | 16 | 38 | ![Low](https://img.shields.io/badge/-Low-green) |
 
 ---
 > [!NOTE]
