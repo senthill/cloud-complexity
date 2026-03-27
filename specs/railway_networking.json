@@ -6,7 +6,21 @@
   },
   "paths": {
     "/api/v1/railway_networking/resource_0": {
-      "post": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -22,7 +36,7 @@
       }
     },
     "/api/v1/railway_networking/resource_1": {
-      "delete": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -31,6 +45,25 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
             "in": "query",
             "description": "mock param"
           }
@@ -38,7 +71,7 @@
       }
     },
     "/api/v1/railway_networking/resource_2": {
-      "delete": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -47,6 +80,16 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -68,12 +111,31 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/railway_networking/resource_3": {
-      "get": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -90,17 +152,12 @@
             "name": "param_0",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/railway_networking/resource_5": {
-      "post": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -126,18 +183,7 @@
       }
     },
     "/api/v1/railway_networking/resource_6": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/railway_networking/resource_7": {
-      "delete": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -152,6 +198,41 @@
         ]
       },
       "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/railway_networking/resource_7": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -177,15 +258,6 @@
       }
     },
     "/api/v1/railway_networking/resource_8": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
       "post": {
         "parameters": [
           {
@@ -199,10 +271,19 @@
             "description": "mock param"
           }
         ]
+      },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
       }
     },
     "/api/v1/railway_networking/resource_9": {
-      "put": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -218,10 +299,15 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       },
-      "post": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",

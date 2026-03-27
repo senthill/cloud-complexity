@@ -6,6 +6,41 @@
   },
   "paths": {
     "/api/v1/do_volumes/resource_0": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_volumes/resource_1": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
       "post": {
         "parameters": [
           {
@@ -27,30 +62,6 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
           },
           {
             "name": "param_4",
@@ -60,24 +71,8 @@
         ]
       }
     },
-    "/api/v1/do_volumes/resource_1": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
     "/api/v1/do_volumes/resource_2": {
-      "put": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -98,6 +93,32 @@
       }
     },
     "/api/v1/do_volumes/resource_3": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_volumes/resource_4": {
       "put": {
         "parameters": [
           {
@@ -107,6 +128,21 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
@@ -142,29 +178,8 @@
         ]
       }
     },
-    "/api/v1/do_volumes/resource_4": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
     "/api/v1/do_volumes/resource_5": {
-      "delete": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -195,77 +210,6 @@
       }
     },
     "/api/v1/do_volumes/resource_6": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_volumes/resource_7": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_volumes/resource_8": {
       "patch": {
         "parameters": [
           {
@@ -277,86 +221,14 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_volumes/resource_9": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_volumes/resource_10": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
           },
           {
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_volumes/resource_11": {
+      },
       "delete": {
         "parameters": [
           {
@@ -373,6 +245,73 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_volumes/resource_7": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_volumes/resource_8": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_volumes/resource_9": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
           },
           {
             "name": "param_3",
@@ -395,6 +334,116 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_volumes/resource_10": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_volumes/resource_11": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -418,28 +467,14 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      },
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
           },
           {
             "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
@@ -458,15 +493,10 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "delete": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -482,7 +512,7 @@
       }
     },
     "/api/v1/do_volumes/resource_14": {
-      "get": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -498,39 +528,7 @@
       }
     },
     "/api/v1/do_volumes/resource_15": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_volumes/resource_16": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_volumes/resource_17": {
-      "patch": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -560,8 +558,8 @@
         ]
       }
     },
-    "/api/v1/do_volumes/resource_18": {
-      "post": {
+    "/api/v1/do_volumes/resource_16": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -577,15 +575,40 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
           },
           {
-            "name": "param_3",
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_volumes/resource_17": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
         ]
       },
-      "get": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -610,8 +633,92 @@
         ]
       }
     },
-    "/api/v1/do_volumes/resource_19": {
+    "/api/v1/do_volumes/resource_18": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
       "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_volumes/resource_19": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -638,6 +745,21 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
@@ -652,6 +774,16 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }

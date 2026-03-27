@@ -6,6 +6,108 @@
   },
   "paths": {
     "/api/v1/fly_apps/resource_0": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/fly_apps/resource_1": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/fly_apps/resource_2": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/fly_apps/resource_3": {
       "post": {
         "parameters": [
           {
@@ -30,74 +132,6 @@
           },
           {
             "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_1": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_2": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_3": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -136,21 +170,7 @@
       }
     },
     "/api/v1/fly_apps/resource_5": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "put": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -176,7 +196,7 @@
       }
     },
     "/api/v1/fly_apps/resource_6": {
-      "put": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -190,40 +210,6 @@
           },
           {
             "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
@@ -231,22 +217,6 @@
       }
     },
     "/api/v1/fly_apps/resource_7": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_8": {
       "post": {
         "parameters": [
           {
@@ -258,10 +228,17 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
           }
         ]
-      },
-      "put": {
+      }
+    },
+    "/api/v1/fly_apps/resource_8": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -275,16 +252,6 @@
           },
           {
             "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
@@ -292,7 +259,7 @@
       }
     },
     "/api/v1/fly_apps/resource_9": {
-      "delete": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -301,27 +268,12 @@
           },
           {
             "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
         ]
       },
-      "put": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -335,16 +287,6 @@
           },
           {
             "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
@@ -352,21 +294,7 @@
       }
     },
     "/api/v1/fly_apps/resource_10": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "delete": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -380,6 +308,11 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -398,12 +331,15 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/fly_apps/resource_12": {
-      "patch": {
+      },
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -431,8 +367,10 @@
             "description": "mock param"
           }
         ]
-      },
-      "put": {
+      }
+    },
+    "/api/v1/fly_apps/resource_12": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -453,33 +391,17 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_13": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
           },
           {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
+            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/fly_apps/resource_14": {
-      "put": {
+    "/api/v1/fly_apps/resource_13": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -509,9 +431,30 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/fly_apps/resource_14": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -543,7 +486,7 @@
           }
         ]
       },
-      "post": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -569,7 +512,7 @@
       }
     },
     "/api/v1/fly_apps/resource_16": {
-      "delete": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -597,48 +540,10 @@
             "description": "mock param"
           }
         ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
       }
     },
     "/api/v1/fly_apps/resource_17": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -654,7 +559,21 @@
       }
     },
     "/api/v1/fly_apps/resource_18": {
-      "patch": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -670,6 +589,22 @@
       }
     },
     "/api/v1/fly_apps/resource_19": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/fly_apps/resource_20": {
       "delete": {
         "parameters": [
           {
@@ -693,82 +628,9 @@
             "description": "mock param"
           }
         ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_20": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
       }
     },
     "/api/v1/fly_apps/resource_21": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
       "put": {
         "parameters": [
           {
@@ -797,10 +659,8 @@
             "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/fly_apps/resource_22": {
-      "delete": {
+      },
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -811,21 +671,11 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/fly_apps/resource_23": {
+    "/api/v1/fly_apps/resource_22": {
       "post": {
         "parameters": [
           {
@@ -854,10 +704,70 @@
             "description": "mock param"
           }
         ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/fly_apps/resource_23": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
       }
     },
     "/api/v1/fly_apps/resource_24": {
-      "patch": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/fly_apps/resource_25": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -873,12 +783,15 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/fly_apps/resource_25": {
-      "delete": {
+      },
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -899,6 +812,32 @@
       }
     },
     "/api/v1/fly_apps/resource_26": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/fly_apps/resource_27": {
       "patch": {
         "parameters": [
           {
@@ -913,42 +852,6 @@
           },
           {
             "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_27": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -967,26 +870,15 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_29": {
-      "post": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -1002,11 +894,16 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/fly_apps/resource_30": {
+    "/api/v1/fly_apps/resource_29": {
       "put": {
         "parameters": [
           {
@@ -1023,10 +920,20 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       },
-      "delete": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -1056,47 +963,7 @@
         ]
       }
     },
-    "/api/v1/fly_apps/resource_31": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_32": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
+    "/api/v1/fly_apps/resource_30": {
       "post": {
         "parameters": [
           {
@@ -1118,6 +985,125 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/fly_apps/resource_31": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/fly_apps/resource_32": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
@@ -1132,40 +1118,6 @@
           },
           {
             "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -1189,51 +1141,6 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      },
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_35": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
           },
           {
             "name": "param_3",
@@ -1246,8 +1153,10 @@
             "description": "mock param"
           }
         ]
-      },
-      "delete": {
+      }
+    },
+    "/api/v1/fly_apps/resource_35": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -1256,11 +1165,6 @@
           },
           {
             "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -1299,28 +1203,7 @@
       }
     },
     "/api/v1/fly_apps/resource_37": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/fly_apps/resource_38": {
-      "post": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -1341,14 +1224,25 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
           },
           {
-            "name": "param_4",
+            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
         ]
-      },
+      }
+    },
+    "/api/v1/fly_apps/resource_38": {
       "get": {
         "parameters": [
           {
@@ -1370,31 +1264,12 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/fly_apps/resource_39": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "patch": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -1410,7 +1285,7 @@
       }
     },
     "/api/v1/fly_apps/resource_40": {
-      "patch": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -1419,12 +1294,17 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
         ]
       },
-      "get": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -1433,6 +1313,21 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
@@ -1454,11 +1349,6 @@
           },
           {
             "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }

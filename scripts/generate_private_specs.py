@@ -146,6 +146,8 @@ def main():
         json.dump(generate_mock_openapi_spec("railway_services", 26, (1, 2), (2, 4)), f, indent=2)
     with open("specs/railway_databases.json", "w") as f:
         json.dump(generate_mock_openapi_spec("railway_databases", 14, (1, 2), (1, 3)), f, indent=2)
+    with open("specs/railway_volumes.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("railway_volumes", 8, (1, 1), (1, 2)), f, indent=2)
     with open("specs/railway_networking.json", "w") as f:
         json.dump(generate_mock_openapi_spec("railway_networking", 10, (1, 2), (1, 4)), f, indent=2)
 

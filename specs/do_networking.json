@@ -6,40 +6,6 @@
   },
   "paths": {
     "/api/v1/do_networking/resource_0": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
       "post": {
         "parameters": [
           {
@@ -56,19 +22,18 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
+          }
+        ]
+      },
+      "delete": {
+        "parameters": [
           {
-            "name": "param_3",
+            "name": "param_0",
             "in": "query",
             "description": "mock param"
           },
           {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
+            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -110,6 +75,37 @@
       }
     },
     "/api/v1/do_networking/resource_1": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_2": {
       "get": {
         "parameters": [
           {
@@ -139,7 +135,47 @@
           }
         ]
       },
-      "post": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_3": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -168,63 +204,6 @@
           },
           {
             "name": "param_5",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_networking/resource_2": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_networking/resource_3": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
@@ -253,20 +232,10 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "patch": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -275,6 +244,55 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -282,7 +300,7 @@
       }
     },
     "/api/v1/do_networking/resource_5": {
-      "post": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -296,49 +314,6 @@
           },
           {
             "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -346,7 +321,21 @@
       }
     },
     "/api/v1/do_networking/resource_6": {
-      "patch": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -364,8 +353,10 @@
             "description": "mock param"
           }
         ]
-      },
-      "get": {
+      }
+    },
+    "/api/v1/do_networking/resource_7": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -386,10 +377,56 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_8": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       },
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -417,10 +454,24 @@
             "description": "mock param"
           }
         ]
+      },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
       }
     },
-    "/api/v1/do_networking/resource_7": {
-      "patch": {
+    "/api/v1/do_networking/resource_9": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -441,12 +492,20 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_networking/resource_8": {
-      "post": {
+      },
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -466,8 +525,8 @@
         ]
       }
     },
-    "/api/v1/do_networking/resource_9": {
-      "put": {
+    "/api/v1/do_networking/resource_10": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -510,66 +569,6 @@
           },
           {
             "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_networking/resource_10": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -586,6 +585,50 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -628,22 +671,10 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_networking/resource_13": {
-      "get": {
+      },
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -664,15 +695,50 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
           },
           {
-            "name": "param_4",
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_13": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
         ]
       },
-      "patch": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -708,7 +774,7 @@
       }
     },
     "/api/v1/do_networking/resource_14": {
-      "put": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -727,6 +793,25 @@
           },
           {
             "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -751,16 +836,6 @@
           },
           {
             "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -794,7 +869,7 @@
       }
     },
     "/api/v1/do_networking/resource_16": {
-      "delete": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -810,17 +885,12 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/do_networking/resource_17": {
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -873,7 +943,7 @@
           }
         ]
       },
-      "patch": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -887,6 +957,21 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -920,15 +1005,12 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
           }
         ]
-      },
-      "delete": {
+      }
+    },
+    "/api/v1/do_networking/resource_19": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -939,11 +1021,16 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/do_networking/resource_19": {
+    "/api/v1/do_networking/resource_20": {
       "put": {
         "parameters": [
           {
@@ -967,24 +1054,8 @@
             "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_networking/resource_20": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
       },
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -993,26 +1064,6 @@
           },
           {
             "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -1048,10 +1099,8 @@
             "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_networking/resource_22": {
-      "get": {
+      },
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -1072,16 +1121,9 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_networking/resource_23": {
+      },
       "patch": {
         "parameters": [
           {
@@ -1098,10 +1140,45 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_22": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       },
-      "get": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -1127,10 +1204,17 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
           }
         ]
-      },
-      "put": {
+      }
+    },
+    "/api/v1/do_networking/resource_23": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -1166,6 +1250,30 @@
       }
     },
     "/api/v1/do_networking/resource_24": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
       "get": {
         "parameters": [
           {
@@ -1185,6 +1293,137 @@
           },
           {
             "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_25": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_26": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_27": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -1218,37 +1457,6 @@
             "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_networking/resource_25": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
       },
       "get": {
         "parameters": [
@@ -1261,38 +1469,6 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_networking/resource_26": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_networking/resource_27": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
           },
           {
             "name": "param_2",
@@ -1301,79 +1477,6 @@
           },
           {
             "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -1381,26 +1484,7 @@
       }
     },
     "/api/v1/do_networking/resource_28": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -1426,15 +1510,10 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "delete": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -1465,131 +1544,6 @@
       }
     },
     "/api/v1/do_networking/resource_29": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_networking/resource_30": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_networking/resource_31": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_networking/resource_32": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
       "post": {
         "parameters": [
           {
@@ -1601,90 +1555,10 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_networking/resource_33": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
       "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_networking/resource_34": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -1718,6 +1592,42 @@
           }
         ]
       },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_30": {
       "delete": {
         "parameters": [
           {
@@ -1729,12 +1639,41 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/do_networking/resource_35": {
-      "delete": {
+    "/api/v1/do_networking/resource_31": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -1763,7 +1702,159 @@
           }
         ]
       },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_32": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_33": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
       "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_34": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_networking/resource_35": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -1801,6 +1892,11 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -1841,29 +1937,10 @@
             "description": "mock param"
           }
         ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
       }
     },
     "/api/v1/do_networking/resource_37": {
-      "post": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -1884,20 +1961,10 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "delete": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",

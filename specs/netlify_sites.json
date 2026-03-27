@@ -6,39 +6,10 @@
   },
   "paths": {
     "/api/v1/netlify_sites/resource_0": {
-      "get": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -46,32 +17,6 @@
       }
     },
     "/api/v1/netlify_sites/resource_1": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_2": {
       "delete": {
         "parameters": [
           {
@@ -86,7 +31,27 @@
           }
         ]
       },
-      "patch": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/netlify_sites/resource_2": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -102,10 +67,20 @@
       }
     },
     "/api/v1/netlify_sites/resource_3": {
-      "patch": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -113,6 +88,51 @@
       }
     },
     "/api/v1/netlify_sites/resource_4": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/netlify_sites/resource_5": {
       "patch": {
         "parameters": [
           {
@@ -137,18 +157,7 @@
           }
         ]
       },
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_5": {
-      "patch": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -178,6 +187,31 @@
           }
         ]
       },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/netlify_sites/resource_7": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
       "patch": {
         "parameters": [
           {
@@ -198,90 +232,11 @@
         ]
       }
     },
-    "/api/v1/netlify_sites/resource_7": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
     "/api/v1/netlify_sites/resource_8": {
-      "put": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -289,7 +244,7 @@
       }
     },
     "/api/v1/netlify_sites/resource_9": {
-      "put": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -300,22 +255,6 @@
       }
     },
     "/api/v1/netlify_sites/resource_10": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_11": {
       "delete": {
         "parameters": [
           {
@@ -334,8 +273,19 @@
             "description": "mock param"
           }
         ]
+      }
+    },
+    "/api/v1/netlify_sites/resource_11": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
       },
-      "get": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -344,6 +294,16 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -362,10 +322,20 @@
       }
     },
     "/api/v1/netlify_sites/resource_13": {
-      "patch": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -373,27 +343,7 @@
       }
     },
     "/api/v1/netlify_sites/resource_14": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_15": {
-      "patch": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -412,7 +362,18 @@
           }
         ]
       },
-      "get": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/netlify_sites/resource_15": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -421,6 +382,16 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -439,26 +410,22 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/netlify_sites/resource_17": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "put": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -472,6 +439,11 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }

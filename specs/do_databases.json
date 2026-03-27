@@ -6,7 +6,31 @@
   },
   "paths": {
     "/api/v1/do_databases/resource_0": {
-      "get": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -27,7 +51,7 @@
       }
     },
     "/api/v1/do_databases/resource_1": {
-      "get": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -61,7 +85,7 @@
           }
         ]
       },
-      "patch": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -82,12 +106,22 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/do_databases/resource_2": {
-      "post": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -96,6 +130,21 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
@@ -114,102 +163,36 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/do_databases/resource_4": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
       "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_5": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_6": {
-      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -238,6 +221,82 @@
           },
           {
             "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_5": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_6": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -271,40 +330,9 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_8": {
       "patch": {
         "parameters": [
           {
@@ -331,15 +359,12 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
           }
         ]
-      },
-      "put": {
+      }
+    },
+    "/api/v1/do_databases/resource_8": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -348,6 +373,16 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -366,6 +401,51 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_10": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
           },
           {
             "name": "param_2",
@@ -390,53 +470,8 @@
         ]
       }
     },
-    "/api/v1/do_databases/resource_10": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
     "/api/v1/do_databases/resource_11": {
-      "patch": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -450,40 +485,6 @@
           },
           {
             "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -491,7 +492,7 @@
       }
     },
     "/api/v1/do_databases/resource_12": {
-      "get": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -546,6 +547,25 @@
       }
     },
     "/api/v1/do_databases/resource_13": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
       "get": {
         "parameters": [
           {
@@ -567,33 +587,22 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_14": {
-      "delete": {
-        "parameters": [
+          },
           {
-            "name": "param_0",
+            "name": "param_4",
             "in": "query",
             "description": "mock param"
           },
           {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
+            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/do_databases/resource_15": {
-      "put": {
+    "/api/v1/do_databases/resource_14": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -607,7 +616,23 @@
           }
         ]
       },
-      "delete": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_15": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -649,35 +674,9 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_17": {
       "delete": {
         "parameters": [
           {
@@ -702,6 +701,37 @@
           },
           {
             "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_17": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -737,45 +767,10 @@
             "description": "mock param"
           }
         ]
-      },
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
       }
     },
     "/api/v1/do_databases/resource_19": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_20": {
-      "put": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -801,9 +796,39 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
+          }
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
           },
           {
-            "name": "param_5",
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_20": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -832,20 +857,10 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "delete": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -856,12 +871,27 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/do_databases/resource_22": {
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -921,7 +951,7 @@
       }
     },
     "/api/v1/do_databases/resource_23": {
-      "post": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -955,7 +985,7 @@
           }
         ]
       },
-      "delete": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -969,11 +999,6 @@
           },
           {
             "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -997,15 +1022,10 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "get": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -1021,37 +1041,7 @@
       }
     },
     "/api/v1/do_databases/resource_25": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_26": {
-      "post": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -1070,6 +1060,32 @@
           },
           {
             "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_26": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -1098,9 +1114,18 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
+          }
+        ]
+      },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
           },
           {
-            "name": "param_4",
+            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -1108,7 +1133,7 @@
       }
     },
     "/api/v1/do_databases/resource_28": {
-      "put": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -1134,10 +1159,15 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       },
-      "get": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -1168,7 +1198,7 @@
       }
     },
     "/api/v1/do_databases/resource_29": {
-      "put": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -1213,7 +1243,169 @@
       }
     },
     "/api/v1/do_databases/resource_30": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_31": {
       "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_32": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_33": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_34": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -1247,137 +1439,6 @@
           }
         ]
       },
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_31": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_32": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_33": {
       "patch": {
         "parameters": [
           {
@@ -1399,59 +1460,14 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_34": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
           },
           {
             "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -1480,7 +1496,7 @@
       }
     },
     "/api/v1/do_databases/resource_36": {
-      "post": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -1494,6 +1510,35 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -1501,146 +1546,6 @@
       }
     },
     "/api/v1/do_databases/resource_37": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_38": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_39": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_40": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
       "get": {
         "parameters": [
           {
@@ -1669,65 +1574,8 @@
             "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_databases/resource_41": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
       },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_databases/resource_42": {
-      "delete": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -1760,8 +1608,10 @@
             "description": "mock param"
           }
         ]
-      },
-      "put": {
+      }
+    },
+    "/api/v1/do_databases/resource_38": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -1777,16 +1627,9 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_databases/resource_43": {
+      },
       "put": {
         "parameters": [
           {
@@ -1813,12 +1656,136 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_39": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_40": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_41": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_42": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_databases/resource_43": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/do_databases/resource_44": {
-      "get": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",

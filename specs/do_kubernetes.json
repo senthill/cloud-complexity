@@ -6,7 +6,7 @@
   },
   "paths": {
     "/api/v1/do_kubernetes/resource_0": {
-      "delete": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -20,6 +20,21 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -56,35 +71,6 @@
       }
     },
     "/api/v1/do_kubernetes/resource_1": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
       "post": {
         "parameters": [
           {
@@ -106,9 +92,28 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
           },
           {
-            "name": "param_4",
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -150,7 +155,7 @@
           }
         ]
       },
-      "put": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -186,6 +191,84 @@
       }
     },
     "/api/v1/do_kubernetes/resource_3": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_4": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_5": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_6": {
       "post": {
         "parameters": [
           {
@@ -207,37 +290,6 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_4": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
@@ -255,87 +307,6 @@
           },
           {
             "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_5": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_6": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -343,7 +314,7 @@
       }
     },
     "/api/v1/do_kubernetes/resource_7": {
-      "patch": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -372,7 +343,7 @@
           }
         ]
       },
-      "delete": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -398,7 +369,7 @@
       }
     },
     "/api/v1/do_kubernetes/resource_8": {
-      "patch": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -419,9 +390,40 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_9": {
       "delete": {
         "parameters": [
           {
@@ -445,10 +447,8 @@
             "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_9": {
-      "patch": {
+      },
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -505,11 +505,6 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
@@ -527,6 +522,21 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -534,7 +544,28 @@
       }
     },
     "/api/v1/do_kubernetes/resource_11": {
-      "get": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_12": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -563,7 +594,7 @@
           }
         ]
       },
-      "patch": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -589,25 +620,9 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_12": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
           },
           {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
+            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -615,7 +630,7 @@
       }
     },
     "/api/v1/do_kubernetes/resource_13": {
-      "patch": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -662,12 +677,75 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/do_kubernetes/resource_15": {
-      "put": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -698,7 +776,26 @@
       }
     },
     "/api/v1/do_kubernetes/resource_16": {
-      "delete": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -724,7 +821,7 @@
       }
     },
     "/api/v1/do_kubernetes/resource_17": {
-      "put": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -740,14 +837,23 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
+          }
+        ]
+      },
+      "post": {
+        "parameters": [
           {
-            "name": "param_3",
+            "name": "param_0",
             "in": "query",
             "description": "mock param"
           },
           {
-            "name": "param_4",
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -755,7 +861,7 @@
       }
     },
     "/api/v1/do_kubernetes/resource_18": {
-      "patch": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -786,7 +892,7 @@
       }
     },
     "/api/v1/do_kubernetes/resource_19": {
-      "get": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -835,10 +941,34 @@
             "description": "mock param"
           }
         ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
       }
     },
     "/api/v1/do_kubernetes/resource_21": {
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -869,7 +999,7 @@
       }
     },
     "/api/v1/do_kubernetes/resource_22": {
-      "get": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -888,6 +1018,11 @@
           },
           {
             "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
@@ -919,7 +1054,109 @@
           }
         ]
       },
-      "put": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_24": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_25": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_26": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -954,8 +1191,39 @@
         ]
       }
     },
-    "/api/v1/do_kubernetes/resource_24": {
+    "/api/v1/do_kubernetes/resource_27": {
       "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_28": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -978,10 +1246,8 @@
             "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_25": {
-      "put": {
+      },
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -997,33 +1263,22 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_26": {
-      "patch": {
-        "parameters": [
+          },
           {
-            "name": "param_0",
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           },
           {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
+            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/do_kubernetes/resource_27": {
-      "put": {
+    "/api/v1/do_kubernetes/resource_29": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -1083,17 +1338,12 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/do_kubernetes/resource_28": {
-      "put": {
+    "/api/v1/do_kubernetes/resource_30": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -1111,9 +1361,7 @@
             "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_29": {
+      },
       "put": {
         "parameters": [
           {
@@ -1138,32 +1386,6 @@
           },
           {
             "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_30": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -1171,7 +1393,26 @@
       }
     },
     "/api/v1/do_kubernetes/resource_31": {
-      "delete": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -1197,17 +1438,12 @@
             "name": "param_4",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/do_kubernetes/resource_32": {
-      "delete": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -1243,6 +1479,27 @@
       }
     },
     "/api/v1/do_kubernetes/resource_33": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_34": {
       "put": {
         "parameters": [
           {
@@ -1259,15 +1516,10 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -1288,17 +1540,12 @@
             "name": "param_3",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/do_kubernetes/resource_34": {
-      "post": {
+    "/api/v1/do_kubernetes/resource_35": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -1332,28 +1579,7 @@
           }
         ]
       },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_35": {
-      "delete": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -1377,6 +1603,11 @@
           },
           {
             "name": "param_4",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -1403,7 +1634,7 @@
           }
         ]
       },
-      "put": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -1427,11 +1658,6 @@
           },
           {
             "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
             "in": "query",
             "description": "mock param"
           }
@@ -1455,63 +1681,6 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_38": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_5",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/do_kubernetes/resource_39": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
           },
           {
             "name": "param_3",
@@ -1525,7 +1694,49 @@
           }
         ]
       },
-      "patch": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_38": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/do_kubernetes/resource_39": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -1544,11 +1755,6 @@
           },
           {
             "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
             "in": "query",
             "description": "mock param"
           }
@@ -1572,20 +1778,10 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_4",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "delete": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -1599,6 +1795,11 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -1606,31 +1807,7 @@
       }
     },
     "/api/v1/do_kubernetes/resource_41": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "get": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",

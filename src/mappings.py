@@ -26,7 +26,8 @@ SERVICE_MAPPINGS = {
         "nutanix": "volumes",
         "digitalocean": "volumes",
         "fly": "volumes",
-        "render": "volumes"
+        "render": "volumes",
+        "railway": "volumes"
     },
     "object storage": {
         "aws": "s3",
