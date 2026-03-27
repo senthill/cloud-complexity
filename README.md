@@ -1,120 +1,94 @@
-# CloudComplexity
+# CloudComplexity: The API Tax Benchmark
 
-CloudComplexity is a Command Line Interface (CLI) tool designed to compare cloud APIs across major cloud providers (AWS, GCP, Azure, and Alibaba). By analyzing API specifications, it provides insights into the complexity and scale of equivalent services across different cloud ecosystems.
+CloudComplexity is a data-driven CLI tool designed to quantify the "API Complexity Tax" overhead of modern cloud infrastructure. It benchmarks the surface area of cloud APIs across 14 providers—ranging from legacy IaaS to modern "zero-infrastructure" PaaS—providing a clear metric for the cognitive load required to manage equivalent cloud services.
 
-The tool compares services based on:
-- **Total APIs:** The number of distinct API operations available for a service.
-- **Total Verbs:** The number of HTTP methods (GET, POST, PUT, etc.) or distinct actions.
-- **Total Attributes:** The number of configurable parameters or request input attributes.
+## The 100,000-Attribute Tax
+Modern cloud providers (Hyperscalers) have seen an explosion in API surface area. Every attribute represents a configuration choice, a potential bug, and a cognitive burden. CloudComplexity identifies this "Tax" by measuring:
+- **Total APIs**: Distinct operations per service.
+- **Total Verbs**: HTTP methods (GET, POST, etc.) or distinct actions.
+- **Total Attributes**: The sum of all configurable parameters/request inputs.
 
-## Features
+---
 
-- **Cross-Provider Comparison:** Compare equivalent services (e.g., "compute" maps to AWS EC2, GCP Compute Engine, Azure Compute, and Alibaba ECS).
-- **Extensible Architecture:** Providers are implemented as independent analyzers extending a common `ProviderAnalyzer` base class.
-- **Dynamic Analysis:** 
-  - AWS is analyzed dynamically utilizing `botocore` service models.
-  - Other providers (GCP, Azure, Alibaba) utilize OpenAPI specification parsing.
-- **Rich CLI Output:** Presents metrics in a beautiful, easy-to-read console table using the `rich` library.
+## Supported Providers & Categories
 
-## Project Structure
+### 14 Supported Cloud Providers
+- **Hyper-Cloud**: AWS, GCP, Microsoft Azure, Alibaba Cloud.
+- **Enterprise/HCI**: VMWare vSphere, Nutanix.
+- **Modern PaaS**: Heroku, Render, Fly.io, Railway.
+- **Serverless/Edge**: Vercel, Netlify.
+- **Infrastructure**: DigitalOcean, Generic VPS.
 
-```
-cloudcomplexity/
-├── requirements.txt         # Project dependencies
-├── specs/                   # Directory containing downloaded OpenAPI specs for GCP, Azure, and Alibaba
-└── src/
-    ├── main.py              # CLI entry point using Click and Rich
-    ├── schema.py            # Pydantic data models for API metrics (APIMetrics, ServiceComparison)
-    ├── mappings.py          # Dictionary mapping generic categories to provider-specific services
-    └── providers/
-        ├── base.py          # Abstract base class for all provider analyzers
-        ├── aws.py           # AWS analyzer utilizing botocore
-        ├── gcp.py           # Google Cloud Platform analyzer
-        ├── azure.py         # Microsoft Azure analyzer
-        ├── alibaba.py       # Alibaba Cloud analyzer
-        └── openapi.py       # Utility for parsing standard OpenAPI specifications
-```
+### 8 Service Categories
+1. **Compute**: VMs (EC2, Droplets) and App Services.
+2. **Managed Kubernetes**: EKS, GKE, AKS, ACK, DOKS, FKS.
+3. **Database**: Managed SQL (RDS, Cloud SQL) and NoSQL.
+4. **Networking**: VPC, Subnets, Private Networking, Service Mesh.
+5. **Block Storage**: Volumes/Persistent Disks.
+6. **Object Storage**: S3, GCS, Blob, Spaces.
+7. **File Storage**: Managed NFS (EFS).
+8. **Serverless**: Lambda, Cloud Functions, Vercel/Netlify.
 
-## API Specification Sources
+---
 
-To ensure accuracy, CloudComplexity sources API specifications directly from the same machine-readable definitions used by the cloud providers to generate their official SDKs:
+## Quick Reference Documentation
+For a deep dive into the benchmark data and service mappings, refer to:
+- [**Benchmark Results**](./docs/benchmark_results.md): Live tables showing the "Complexity Tax" for all categories.
+- [**Feature Audit (Ground Truth)**](./docs/feature_audit.md): Service descriptions and official documentation references for all 14 providers.
+- [**Strategic Analysis**](./docs/blog/strategic_analysis.md): High-level analysis of "Aggressive Subtraction" in cloud design.
 
-- **AWS (Amazon Web Services):** Uses `botocore` internal models, which are the exact structural JSON definitions used to power the AWS CLI and `boto3`.
-- **GCP (Google Cloud Platform):** Fetches definitions from the official [Google API Discovery Service](https://developers.google.com/discovery), which Google uses to build their client libraries.
-- **Azure (Microsoft Azure):** Parses OpenAPI (Swagger) specifications sourced from Microsoft's [azure-rest-api-specs](https://github.com/Azure/azure-rest-api-specs) GitHub repository.
-- **Alibaba Cloud:** Evaluates proprietary `api-docs.json` specifications, which serve as the canonical source for their OpenAPI Explorer and SDK generation.
+---
 
-## Setup and Installation
+## Installation
 
-1. **Clone the repository** and navigate to the project directory:
+1. **Clone the repository**:
    ```bash
-   cd cloudcomplexity
+   git clone https://github.com/senthill/cloud-complexity.git
+   cd cloud-complexity
    ```
 
-2. **Create and activate a virtual environment** (optional but recommended):
+2. **Setup Environment**:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Linux/MacOS
-   ```
-
-3. **Install the dependencies:**
-   ```bash
+   source venv/bin/activate
    pip install -r requirements.txt
    ```
-   *Dependencies include `click`, `pydantic`, `requests`, `botocore`, and `rich`.*
 
-4. **Prepare OpenAPI Specs:**
-   For providers that rely on standard OpenAPI specifications (GCP, Azure, Alibaba), ensure you have downloaded the relevant `.json` spec files into the `specs/` directory.
+3. **Generate Specs**:
+   ```bash
+   python scripts/generate_private_specs.py
+   ```
 
-5. **AWS Credentials:**
-   The AWS analyzer requires valid AWS credentials in your environment (e.g., via `~/.aws/credentials` or environment variables) so `botocore` can load the service models.
+---
 
 ## Usage
 
-Run the CLI tool by passing a service category to compare.
-
+Benchmark all categories across all providers:
 ```bash
-python -m src.main <category>
+python -m src.main all
 ```
 
-### Examples
-
-Compare **compute** services (AWS EC2, GCP Compute, Azure Compute, Alibaba ECS):
+Benchmark a specific category:
 ```bash
 python -m src.main compute
-```
-
-Compare **storage** services (AWS S3, GCP Storage, Azure Storage, Alibaba OSS):
-```bash
+python -m src.main database
 python -m src.main storage
 ```
 
-### Output
+---
 
-The tool will output an `API Metrics Comparison` table in your terminal:
+## Project Structure
+- `src/`: Core analysis logic and provider implementations.
+- `specs/`: Organized by provider, containing OpenAPI/Discovery specifications.
+- `docs/`: Comprehensive benchmark results, feature audits, and blog drafts.
+- `scripts/`: Tools for generating organized mock specifications for PaaS providers.
+- `tests/`: Automated unit tests for metric calculation.
 
-```
-Comparing API metrics for category: Compute
-Analyzing AWS (ec2)...
-Analyzing GCP (compute)...
-Analyzing AZURE (compute)...
-Analyzing ALIBABA (ecs)...
+---
 
-                        API Metrics Comparison: Compute                         
-┏━━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┓
-┃ Provider ┃ Service ┃ Total APIs ┃ Total Verbs ┃ Total Attributes ┃
-┡━━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━┩
-│ AWS      │ ec2     │        xxx │         xxx │              xxx │
-│ GCP      │ compute │        xxx │         xxx │              xxx │
-│ AZURE    │ compute │        xxx │         xxx │              xxx │
-│ ALIBABA  │ ecs     │        xxx │         xxx │              xxx │
-└──────────┴─────────┴────────────┴─────────────┴──────────────────┘
-```
+## Strategic Methodology
+CloudComplexity categorizes providers into two camps:
+- **Builders (High Tax)**: Providers like AWS/Azure that expose the "Lego bricks," resulting in >1,000 attributes for simple services.
+- **Users (Low Tax)**: Providers like Render/Fly.io that expose "Intent-based APIs," reducing cognitive load by 95%+.
 
-## Adding a New Provider
-
-1. Create a new analyzer file in `src/providers/` (e.g., `digitalocean.py`).
-2. Implement a class inheriting from `ProviderAnalyzer` in `src/providers/base.py`.
-3. Override the `analyze_service` method to return an `APIMetrics` object.
-4. If relying on OpenAPI, you can leverage the helper `parse_openapi_spec` in `src/providers/openapi.py`.
-5. Register the new analyzer in the `analyzers` dict inside `src/main.py` and update `SERVICE_MAPPINGS` in `src/mappings.py`.
+This data serves as the foundation for our "Complexity Tax" series, advocating for a shift towards zero-infrastructure abstractions.
