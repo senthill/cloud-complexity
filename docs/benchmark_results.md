@@ -16,7 +16,7 @@ Focus: Raw Virtual Machine / App Container management API surface area.
 | :--- | :--- | :--- | :--- | :--- |
 | **AWS** | EC2 | 469 | 3,214 | ![High](https://img.shields.io/badge/-High-red) |
 | **GCP** | Compute | 184 | 624 | ![Med](https://img.shields.io/badge/-Med-orange) |
-| **Azure** | Compute | 284 | 1,842 | ![High](https://img.shields.io/badge/-High-red) |
+| **Azure** | Compute | 223 | 1,071 | ![High](https://img.shields.io/badge/-High-red) |
 | **Alibaba** | ECS | 214 | 1,422 | ![High](https://img.shields.io/badge/-High-red) |
 | **VMWare** | vSphere | 450 | 2,250 | ![High](https://img.shields.io/badge/-High-red) |
 | **Nutanix** | AHV | 45 | 112 | ![Low](https://img.shields.io/badge/-Low-green) |
@@ -36,7 +36,7 @@ Focus: Configuration surface for SQL/NoSQL managed instances.
 | :--- | :--- | :--- | :--- | :--- |
 | **AWS** | RDS | 163 | 1,162 | ![High](https://img.shields.io/badge/-High-red) |
 | **GCP** | SQLAdmin | 74 | 210 | ![Med](https://img.shields.io/badge/-Med-orange) |
-| **Azure** | Azure SQL | 112 | 572 | ![Med](https://img.shields.io/badge/-Med-orange) |
+| **Azure** | SQL | 538 | 3,140 | ![High](https://img.shields.io/badge/-High-red) |
 | **Alibaba** | RDS | 363 | 1,417 | ![High](https://img.shields.io/badge/-High-red) |
 | **Heroku** | Postgres | 32 | 80 | ![Low](https://img.shields.io/badge/-Low-green) |
 | **Render** | Postgres | 27 | 44 | ![Low](https://img.shields.io/badge/-Low-green) |
@@ -53,7 +53,7 @@ Focus: Cluster, node pool, and network integration API surface.
 | :--- | :--- | :--- | :--- | :--- |
 | **AWS** | EKS | 64 | 277 | ![Med](https://img.shields.io/badge/-Med-orange) |
 | **GCP** | GKE | 69 | 217 | ![Med](https://img.shields.io/badge/-Med-orange) |
-| **Azure** | AKS | 59 | 223 | ![Med](https://img.shields.io/badge/-Med-orange) |
+| **Azure** | AKS | 99 | 478 | ![Med](https://img.shields.io/badge/-Med-orange) |
 | **Alibaba** | ACK | 139 | 411 | ![Med](https://img.shields.io/badge/-Med-orange) |
 | **Fly.io** | FKS | 31 | 104 | ![Low](https://img.shields.io/badge/-Low-green) |
 | **Dig.Ocean**| DOKS | 67 | 311 | ![Med](https://img.shields.io/badge/-Med-orange) |
@@ -80,7 +80,7 @@ Focus: Cluster, node pool, and network integration API surface.
 | :--- | :--- | :--- | :--- | :--- |
 | **AWS** | S3 | 111 | 714 | ![Med](https://img.shields.io/badge/-Med-orange) |
 | **GCP** | Cloud Storage | 82 | 417 | ![Med](https://img.shields.io/badge/-Med-orange) |
-| **Azure** | Blob Storage | 476 | 3,040 | ![High](https://img.shields.io/badge/-High-red) |
+| **Azure** | Storage (Account) | 116 | 592 | ![Med](https://img.shields.io/badge/-Med-orange) |
 | **Alibaba** | OSS | 185 | 1,408 | ![High](https://img.shields.io/badge/-High-red) |
 | **Dig.Ocean**| Spaces | 23 | 72 | ![Low](https://img.shields.io/badge/-Low-green) |
 
@@ -89,7 +89,7 @@ Focus: Cluster, node pool, and network integration API surface.
 | :--- | :--- | :--- | :--- | :--- |
 | **AWS** | EFS | 31 | 79 | ![Low](https://img.shields.io/badge/-Low-green) |
 | **GCP** | Filestore | 26 | 66 | ![Low](https://img.shields.io/badge/-Low-green) |
-| **Azure** | Azure Files | 194 | 964 | ![Med](https://img.shields.io/badge/-Med-orange) |
+| **Azure** | Storage (Account) | 116 | 592 | ![Med](https://img.shields.io/badge/-Med-orange) |
 | **Alibaba** | NAS | 72 | 452 | ![Med](https://img.shields.io/badge/-Med-orange) |
 
 ---
@@ -101,7 +101,7 @@ Focus: Deployment and event triggering surface area.
 | :--- | :--- | :--- | :--- | :--- |
 | **AWS** | Lambda | 85 | 355 | ![Med](https://img.shields.io/badge/-Med-orange) |
 | **GCP** | Functions | 14 | 34 | ![Low](https://img.shields.io/badge/-Low-green) |
-| **Azure** | Functions | 54 | 195 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Azure** | Web (App Service) | 692 | 3,606 | ![High](https://img.shields.io/badge/-High-red) |
 | **Alibaba** | FC | 42 | 120 | ![Low](https://img.shields.io/badge/-Low-green) |
 | **Vercel** | Deployments | 33 | 65 | ![Low](https://img.shields.io/badge/-Low-green) |
 | **Netlify** | Sites | 28 | 67 | ![Low](https://img.shields.io/badge/-Low-green) |
@@ -115,7 +115,7 @@ Focus: VPC, Subnet, Firewall, and Service Mesh configuration.
 | :--- | :--- | :--- | :--- | :--- |
 | **AWS** | EC2/VPC | 249 | 1,128 | ![High](https://img.shields.io/badge/-High-red) |
 | **GCP** | Compute/VPC | 93 | 427 | ![Med](https://img.shields.io/badge/-Med-orange) |
-| **Azure** | Network | 587 | 2,927 | ![High](https://img.shields.io/badge/-High-red) |
+| **Azure** | Network | 747 | 3,075 | ![High](https://img.shields.io/badge/-High-red) |
 | **Alibaba** | VPC | 310 | 1,710 | ![High](https://img.shields.io/badge/-High-red) |
 | **VMWare** | NSX | 652 | 3,296 | ![High](https://img.shields.io/badge/-High-red) |
 | **Nutanix** | Flow | 31 | 69 | ![Low](https://img.shields.io/badge/-Low-green) |
@@ -127,4 +127,4 @@ Focus: VPC, Subnet, Firewall, and Service Mesh configuration.
 
 ---
 > [!NOTE]
-> All metrics are generated using the `CloudComplexity` tool. Attributes include both required and optional parameters, representing the total configurable state for a given service.
+> All metrics are generated using the `CloudComplexity` tool and verified via local scan of Azure Specifications (Stable/Latest). Attributes include both required and optional parameters, representing the total configurable state for a given service.

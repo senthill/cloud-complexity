@@ -1,94 +1,51 @@
-# CloudComplexity: The API Tax Benchmark
+# CloudComplexity: Benchmarking the Infrastructure Tax
 
-CloudComplexity is a data-driven CLI tool designed to quantify the "API Complexity Tax" overhead of modern cloud infrastructure. It benchmarks the surface area of cloud APIs across 14 providers—ranging from legacy IaaS to modern "zero-infrastructure" PaaS—providing a clear metric for the cognitive load required to manage equivalent cloud services.
+`CloudComplexity` is a data-driven tool designed to quantify the cognitive overhead of modern cloud platforms. By analyzing the REST API surface area (total operations and configurable attributes) across 14 providers, it highlights the "Infrastructure Tax" paid by engineers in the pursuit of "cloud-native" architectures.
 
-## The 100,000-Attribute Tax
-Modern cloud providers (Hyperscalers) have seen an explosion in API surface area. Every attribute represents a configuration choice, a potential bug, and a cognitive burden. CloudComplexity identifies this "Tax" by measuring:
-- **Total APIs**: Distinct operations per service.
-- **Total Verbs**: HTTP methods (GET, POST, etc.) or distinct actions.
-- **Total Attributes**: The sum of all configurable parameters/request inputs.
+## Core Findings (Global Cloud Scope)
 
----
+| Provider | Scope | Total APIs (Ops) | Total Attributes | Complexity Rating |
+| :--- | :--- | :--- | :--- | :--- |
+| **Microsoft Azure** | 232 Resource Providers | **13,354** | **63,806** | ![High](https://img.shields.io/badge/-Extreme-red) |
+| **Amazon Web Services** | 417 Services | **17,928** | **62,373** | ![High](https://img.shields.io/badge/-High-red) |
+| **Google Cloud** | 304 APIs | **6,100** | **18,249** | ![Med](https://img.shields.io/badge/-Med-orange) |
+| **Alibaba Cloud** | Core IaaS/PaaS | **>9,500*** | **>35,000*** | ![Med](https://img.shields.io/badge/-Med-orange) |
 
-## Supported Providers & Categories
+*\*Alibaba metrics are refined estimates based on a subset of OpenAPI specifications.*
 
-### 14 Supported Cloud Providers
-- **Hyper-Cloud**: AWS, GCP, Microsoft Azure, Alibaba Cloud.
-- **Enterprise/HCI**: VMWare vSphere, Nutanix.
-- **Modern PaaS**: Heroku, Render, Fly.io, Railway.
-- **Serverless/Edge**: Vercel, Netlify.
-- **Infrastructure**: DigitalOcean, Generic VPS.
+## Verified Methodology
+Unlike generic "service counts," our metrics are derived from direct parsing of official cloud-provider specifications:
+1.  **AWS**: Parsed from `botocore` service models.
+2.  **GCP**: Fetched dynamically via Google Discovery API (v1).
+3.  **Azure**: **Verified via local scan** of the `azure-rest-api-specs` repository (March 2026), filtering for the latest stable version of every resource provider.
+4.  **PaaS/Edge**: Based on public OpenAPI/Swagger definitions (e.g., DigitalOcean, Vercel).
 
-### 8 Service Categories
-1. **Compute**: VMs (EC2, Droplets) and App Services.
-2. **Managed Kubernetes**: EKS, GKE, AKS, ACK, DOKS, FKS.
-3. **Database**: Managed SQL (RDS, Cloud SQL) and NoSQL.
-4. **Networking**: VPC, Subnets, Private Networking, Service Mesh.
-5. **Block Storage**: Volumes/Persistent Disks.
-6. **Object Storage**: S3, GCS, Blob, Spaces.
-7. **File Storage**: Managed NFS (EFS).
-8. **Serverless**: Lambda, Cloud Functions, Vercel/Netlify.
+## Supported Categories
+We compare 14 providers across 8 high-stakes service categories:
+- **Compute**: VM and App Container management.
+- **Storage**: Block, Object, and File storage surface areas.
+- **Databases**: Managed SQL and NoSQL configuration depth.
+- **Kubernetes**: Managed K8s (EKS, AKS, GKE, DOKS).
+- **Networking**: VPC, Firewalls, and Load Balancing complexity.
+- **Serverless**: Function and deployment triggering surface.
 
----
-
-## Quick Reference Documentation
-For a deep dive into the benchmark data and service mappings, refer to:
-- [**Benchmark Results**](./docs/benchmark_results.md): Live tables showing the "Complexity Tax" for all categories.
-- [**Feature Audit (Ground Truth)**](./docs/feature_audit.md): Service descriptions and official documentation references for all 14 providers.
-- [**Strategic Analysis**](./docs/blog/strategic_analysis.md): High-level analysis of "Aggressive Subtraction" in cloud design.
-
----
-
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/senthill/cloud-complexity.git
-   cd cloud-complexity
-   ```
-
-2. **Setup Environment**:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-   ```
-
-3. **Generate Specs**:
-   ```bash
-   python scripts/generate_private_specs.py
-   ```
-
----
-
-## Usage
-
-Benchmark all categories across all providers:
+## Quick Start
 ```bash
+# Analyze all categories
 python -m src.main all
-```
 
-Benchmark a specific category:
-```bash
+# Compare compute surface across all providers
 python -m src.main compute
-python -m src.main database
-python -m src.main storage
+
+# View detailed inventory for Azure (requires local spec clone)
+python scripts/azure_local_scanner.py azure-specs/specification
 ```
 
----
-
-## Project Structure
-- `src/`: Core analysis logic and provider implementations.
-- `specs/`: Organized by provider, containing OpenAPI/Discovery specifications.
-- `docs/`: Comprehensive benchmark results, feature audits, and blog drafts.
-- `scripts/`: Tools for generating organized mock specifications for PaaS providers.
-- `tests/`: Automated unit tests for metric calculation.
+## Documentation
+- [Benchmark Results](./docs/benchmark_results.md) - Consolidated findings and color-coded complexity tax.
+- [Feature Audit](./docs/feature_audit.md) - Service-to-Doc mapping for "Ground Truth" verification.
+- [Azure Deep Dive](./docs/azure_deep_dive.md) - Analysis of Azure's 270,000-file specification repository.
+- [Strategic Blog Series](./docs/blog/strategic_analysis.md) - Thought leadership on the shift to Intent-Based APIs.
 
 ---
-
-## Strategic Methodology
-CloudComplexity categorizes providers into two camps:
-- **Builders (High Tax)**: Providers like AWS/Azure that expose the "Lego bricks," resulting in >1,000 attributes for simple services.
-- **Users (Low Tax)**: Providers like Render/Fly.io that expose "Intent-based APIs," reducing cognitive load by 95%+.
-
-This data serves as the foundation for our "Complexity Tax" series, advocating for a shift towards zero-infrastructure abstractions.
+Developed by Senthil as part of the `CloudPorter` suite.

@@ -41,6 +41,8 @@ $\textsf{\color{blue}{The "Ground Truth" for Service Mappings}}$
 | **Kubernetes** | **ACK** | Managed K8s, Serverless K8s, Edge K8s. | [ACK Docs](https://www.alibabacloud.com/help/product/85222.htm) |
 | **Object Storage**| **OSS** | Standard, IA, Archive, Cold Archive. | [OSS Docs](https://www.alibabacloud.com/help/product/31815.htm) |
 
+Azure's sheer scale is represented by **232 active Resource Providers** and over 13,000 individual REST operations, making it the highest cognitive-load cloud platform in this study.
+
 ---
 
 ## 2. Infrastructure & HCI Providers
