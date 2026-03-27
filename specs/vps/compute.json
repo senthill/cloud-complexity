@@ -6,7 +6,7 @@
   },
   "paths": {
     "/api/v1/vps_compute/resource_0": {
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -22,29 +22,7 @@
       }
     },
     "/api/v1/vps_compute/resource_1": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/vps_compute/resource_2": {
       "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/vps_compute/resource_3": {
-      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -59,8 +37,35 @@
         ]
       }
     },
-    "/api/v1/vps_compute/resource_4": {
+    "/api/v1/vps_compute/resource_2": {
       "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/vps_compute/resource_3": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/vps_compute/resource_4": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -76,7 +81,7 @@
       }
     },
     "/api/v1/vps_compute/resource_5": {
-      "get": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -87,7 +92,18 @@
       }
     },
     "/api/v1/vps_compute/resource_6": {
-      "post": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/vps_compute/resource_7": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -96,17 +112,6 @@
           },
           {
             "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/vps_compute/resource_7": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
             "in": "query",
             "description": "mock param"
           }

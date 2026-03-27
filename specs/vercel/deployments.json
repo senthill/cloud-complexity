@@ -6,7 +6,16 @@
   },
   "paths": {
     "/api/v1/vercel_deployments/resource_0": {
-      "get": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -17,23 +26,7 @@
       }
     },
     "/api/v1/vercel_deployments/resource_1": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/vercel_deployments/resource_2": {
-      "put": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -47,6 +40,41 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/vercel_deployments/resource_2": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -68,7 +96,7 @@
       }
     },
     "/api/v1/vercel_deployments/resource_3": {
-      "put": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -79,12 +107,17 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
           }
         ]
       }
     },
     "/api/v1/vercel_deployments/resource_4": {
-      "get": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -100,7 +133,28 @@
       }
     },
     "/api/v1/vercel_deployments/resource_5": {
-      "delete": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/vercel_deployments/resource_6": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -119,21 +173,20 @@
           }
         ]
       },
-      "post": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/vercel_deployments/resource_6": {
-      "delete": {
-        "parameters": [
+          },
           {
-            "name": "param_0",
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -147,6 +200,50 @@
             "name": "param_0",
             "in": "query",
             "description": "mock param"
+          }
+        ]
+      },
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/vercel_deployments/resource_8": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
           },
           {
             "name": "param_1",
@@ -161,36 +258,6 @@
         ]
       }
     },
-    "/api/v1/vercel_deployments/resource_8": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
     "/api/v1/vercel_deployments/resource_9": {
       "get": {
         "parameters": [
@@ -198,23 +265,13 @@
             "name": "param_0",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       },
-      "put": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -222,7 +279,7 @@
       }
     },
     "/api/v1/vercel_deployments/resource_10": {
-      "patch": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -238,7 +295,7 @@
       }
     },
     "/api/v1/vercel_deployments/resource_11": {
-      "delete": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -249,15 +306,19 @@
       }
     },
     "/api/v1/vercel_deployments/resource_12": {
-      "delete": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
             "in": "query",
             "description": "mock param"
-          },
+          }
+        ]
+      },
+      "post": {
+        "parameters": [
           {
-            "name": "param_1",
+            "name": "param_0",
             "in": "query",
             "description": "mock param"
           }
@@ -265,7 +326,7 @@
       }
     },
     "/api/v1/vercel_deployments/resource_13": {
-      "put": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -274,11 +335,6 @@
           },
           {
             "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }
@@ -286,32 +342,7 @@
       }
     },
     "/api/v1/vercel_deployments/resource_14": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
       "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/vercel_deployments/resource_15": {
-      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -329,8 +360,19 @@
             "description": "mock param"
           }
         ]
+      }
+    },
+    "/api/v1/vercel_deployments/resource_15": {
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
       },
-      "delete": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -341,7 +383,26 @@
       }
     },
     "/api/v1/vercel_deployments/resource_16": {
-      "delete": {
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "put": {
         "parameters": [
           {
             "name": "param_0",
@@ -362,41 +423,6 @@
       }
     },
     "/api/v1/vercel_deployments/resource_17": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/vercel_deployments/resource_18": {
       "get": {
         "parameters": [
           {
@@ -410,11 +436,27 @@
             "description": "mock param"
           }
         ]
-      },
-      "delete": {
+      }
+    },
+    "/api/v1/vercel_deployments/resource_18": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -428,31 +470,6 @@
             "name": "param_0",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/vercel_deployments/resource_20": {
-      "delete": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
           },
           {
             "name": "param_1",
@@ -461,6 +478,17 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/vercel_deployments/resource_20": {
+      "get": {
+        "parameters": [
+          {
+            "name": "param_0",
             "in": "query",
             "description": "mock param"
           }
@@ -468,20 +496,10 @@
       }
     },
     "/api/v1/vercel_deployments/resource_21": {
-      "patch": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
             "in": "query",
             "description": "mock param"
           }

@@ -75,17 +75,22 @@ Focus: Cluster, node pool, and network integration API surface.
 | **Dig.Ocean**| Volumes | 33 | 116 | ![Low](https://img.shields.io/badge/-Low-green) |
 | **Railway** | Volumes | 8 | 11 | ![Low](https://img.shields.io/badge/-Low-green) |
 
-### 4.2 Object Storage (S3/GCS/Blob)
+### 4.2 Object Storage (S3/GCS/Blob/OSS)
 | Provider | Service | Total APIs | Total Attributes | Complexity Rating |
 | :--- | :--- | :--- | :--- | :--- |
 | **AWS** | S3 | 111 | 714 | ![Med](https://img.shields.io/badge/-Med-orange) |
 | **GCP** | Cloud Storage | 82 | 417 | ![Med](https://img.shields.io/badge/-Med-orange) |
-| **Dig.Ocean**| Spaces | 24 | 72 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Azure** | Blob Storage | 872 | 7,347 | ![High](https://img.shields.io/badge/-High-red) |
+| **Alibaba** | OSS | 185 | 1,383 | ![High](https://img.shields.io/badge/-High-red) |
+| **Dig.Ocean**| Spaces | 21 | 59 | ![Low](https://img.shields.io/badge/-Low-green) |
 
-### 4.3 File Storage (EFS/NAS)
+### 4.3 File Storage (EFS/NAS/Filestore)
 | Provider | Service | Total APIs | Total Attributes | Complexity Rating |
 | :--- | :--- | :--- | :--- | :--- |
 | **AWS** | EFS | 31 | 79 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **GCP** | Filestore | 26 | 66 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Azure** | Azure Files | 872 | 7,347 | ![High](https://img.shields.io/badge/-High-red) |
+| **Alibaba** | NAS | 72 | 429 | ![Med](https://img.shields.io/badge/-Med-orange) |
 
 ---
 

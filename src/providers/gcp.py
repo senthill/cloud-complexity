@@ -31,7 +31,8 @@ class GCPAnalyzer(ProviderAnalyzer):
             "storage": ("storage", "v1"),
             "cloudfunctions": ("cloudfunctions", "v1"),
             "container": ("container", "v1"),
-            "sqladmin": ("sqladmin", "v1beta4")
+            "sqladmin": ("sqladmin", "v1beta4"),
+            "file": ("file", "v1")
         }
         
         mapping = SERVICE_DEFAULTS.get(service_name)

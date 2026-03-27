@@ -117,11 +117,14 @@ def main():
     save_mock_spec("azure", "containerservice", 59, (1, 1), (2, 6))
     save_mock_spec("azure", "sql", 112, (1, 1), (2, 8))
     save_mock_spec("azure", "functions", 54, (1, 1), (2, 5))
+    save_mock_spec("azure", "storage", 220, (3, 5), (5, 12))
 
     save_mock_spec("alibaba", "vpc", 310, (1, 3), (3, 8), is_alibaba=True)
     save_mock_spec("alibaba", "cs", 139, (1, 1), (2, 4), is_alibaba=True)
     save_mock_spec("alibaba", "rds", 363, (1, 2), (2, 6), is_alibaba=True)
     save_mock_spec("alibaba", "fc", 42, (1, 2), (2, 4), is_alibaba=True)
+    save_mock_spec("alibaba", "oss", 185, (3, 5), (5, 10), is_alibaba=True)
+    save_mock_spec("alibaba", "nas", 72, (2, 4), (4, 8), is_alibaba=True)
 
     print("\nAll organizational specs generated successfully.")
 
