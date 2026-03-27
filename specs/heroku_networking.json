@@ -1,12 +1,12 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "netlify_sites API",
+    "title": "heroku_networking API",
     "version": "1.0"
   },
   "paths": {
-    "/api/v1/netlify_sites/resource_0": {
-      "get": {
+    "/api/v1/heroku_networking/resource_0": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -15,6 +15,53 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/heroku_networking/resource_1": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/heroku_networking/resource_2": {
+      "delete": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
@@ -36,17 +83,12 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/netlify_sites/resource_1": {
-      "put": {
+    "/api/v1/heroku_networking/resource_3": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -62,16 +104,11 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/netlify_sites/resource_2": {
+    "/api/v1/heroku_networking/resource_4": {
       "delete": {
         "parameters": [
           {
@@ -101,18 +138,21 @@
         ]
       }
     },
-    "/api/v1/netlify_sites/resource_3": {
-      "patch": {
+    "/api/v1/heroku_networking/resource_5": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
             "in": "query",
             "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
           }
         ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_4": {
+      },
       "patch": {
         "parameters": [
           {
@@ -136,18 +176,25 @@
             "description": "mock param"
           }
         ]
-      },
-      "delete": {
+      }
+    },
+    "/api/v1/heroku_networking/resource_6": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/netlify_sites/resource_5": {
+    "/api/v1/heroku_networking/resource_7": {
       "patch": {
         "parameters": [
           {
@@ -163,8 +210,8 @@
         ]
       }
     },
-    "/api/v1/netlify_sites/resource_6": {
-      "put": {
+    "/api/v1/heroku_networking/resource_8": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -177,7 +224,9 @@
             "description": "mock param"
           }
         ]
-      },
+      }
+    },
+    "/api/v1/heroku_networking/resource_9": {
       "patch": {
         "parameters": [
           {
@@ -189,17 +238,12 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/netlify_sites/resource_7": {
-      "put": {
+    "/api/v1/heroku_networking/resource_10": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -229,93 +273,11 @@
             "name": "param_1",
             "in": "query",
             "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/netlify_sites/resource_8": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_3",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_2",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_9": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_10": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_11": {
+    "/api/v1/heroku_networking/resource_11": {
       "delete": {
         "parameters": [
           {
@@ -332,68 +294,17 @@
             "name": "param_2",
             "in": "query",
             "description": "mock param"
-          }
-        ]
-      },
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
           },
           {
-            "name": "param_1",
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/netlify_sites/resource_12": {
+    "/api/v1/heroku_networking/resource_12": {
       "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_13": {
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_14": {
-      "put": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
-      "patch": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_15": {
-      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -412,7 +323,7 @@
           }
         ]
       },
-      "get": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -421,43 +332,23 @@
           },
           {
             "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }
         ]
       }
     },
-    "/api/v1/netlify_sites/resource_16": {
-      "post": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      }
-    },
-    "/api/v1/netlify_sites/resource_17": {
-      "get": {
-        "parameters": [
-          {
-            "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
-            "in": "query",
-            "description": "mock param"
-          }
-        ]
-      },
+    "/api/v1/heroku_networking/resource_13": {
       "put": {
         "parameters": [
           {
@@ -472,6 +363,46 @@
           },
           {
             "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      }
+    },
+    "/api/v1/heroku_networking/resource_14": {
+      "put": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          }
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "name": "param_0",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_1",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_2",
+            "in": "query",
+            "description": "mock param"
+          },
+          {
+            "name": "param_3",
             "in": "query",
             "description": "mock param"
           }

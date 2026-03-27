@@ -23,13 +23,17 @@ SERVICE_MAPPINGS = {
         "azure": "storage",
         "alibaba": "oss",
         "vmware": "vsan",
-        "nutanix": "volumes"
+        "nutanix": "volumes",
+        "digitalocean": "volumes",
+        "fly": "volumes",
+        "render": "volumes"
     },
     "object storage": {
         "aws": "s3",
         "gcp": "storage",
         "azure": "storage",
-        "alibaba": "oss"
+        "alibaba": "oss",
+        "digitalocean": "spaces"
     },
     "file storage": {
         "aws": "efs",
@@ -41,7 +45,9 @@ SERVICE_MAPPINGS = {
         "aws": "eks",
         "gcp": "container",
         "azure": "containerservice",
-        "alibaba": "cs"
+        "alibaba": "cs",
+        "digitalocean": "kubernetes",
+        "fly": "kubernetes"
     },
     "database service": {
         "aws": "rds",
@@ -60,7 +66,12 @@ SERVICE_MAPPINGS = {
         "azure": "network",
         "alibaba": "vpc",
         "vmware": "nsx",
-        "nutanix": "flow"
+        "nutanix": "flow",
+        "digitalocean": "networking",
+        "heroku": "networking",
+        "render": "networking",
+        "fly": "networking",
+        "railway": "networking"
     },
     "serverless": {
         "aws": "lambda",

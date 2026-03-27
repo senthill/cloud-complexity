@@ -102,30 +102,52 @@ def main():
         json.dump(generate_mock_openapi_spec("heroku_apps", 52, (1, 2), (2, 5)), f, indent=2)
     with open("specs/heroku_postgres.json", "w") as f:
         json.dump(generate_mock_openapi_spec("heroku_postgres", 22, (1, 2), (1, 4)), f, indent=2)
+    with open("specs/heroku_networking.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("heroku_networking", 15, (1, 2), (2, 4)), f, indent=2)
 
     # Render
     with open("specs/render_services.json", "w") as f:
         json.dump(generate_mock_openapi_spec("render_services", 32, (1, 2), (2, 4)), f, indent=2)
     with open("specs/render_postgres.json", "w") as f:
         json.dump(generate_mock_openapi_spec("render_postgres", 16, (1, 2), (1, 3)), f, indent=2)
+    with open("specs/render_volumes.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("render_volumes", 12, (1, 1), (1, 3)), f, indent=2)
+    with open("specs/render_networking.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("render_networking", 10, (1, 2), (2, 4)), f, indent=2)
 
     # Fly.io
     with open("specs/fly_apps.json", "w") as f:
         json.dump(generate_mock_openapi_spec("fly_apps", 42, (1, 2), (2, 5)), f, indent=2)
     with open("specs/fly_postgres.json", "w") as f:
         json.dump(generate_mock_openapi_spec("fly_postgres", 12, (1, 2), (1, 3)), f, indent=2)
+    with open("specs/fly_volumes.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("fly_volumes", 14, (1, 2), (2, 4)), f, indent=2)
+    with open("specs/fly_kubernetes.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("fly_kubernetes", 20, (1, 2), (2, 5)), f, indent=2)
+    with open("specs/fly_networking.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("fly_networking", 18, (1, 2), (2, 4)), f, indent=2)
 
     # DigitalOcean
     with open("specs/do_droplets.json", "w") as f:
         json.dump(generate_mock_openapi_spec("do_droplets", 62, (1, 3), (3, 7)), f, indent=2)
     with open("specs/do_databases.json", "w") as f:
         json.dump(generate_mock_openapi_spec("do_databases", 45, (1, 2), (2, 6)), f, indent=2)
+    with open("specs/do_volumes.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("do_volumes", 22, (1, 2), (2, 5)), f, indent=2)
+    with open("specs/do_spaces.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("do_spaces", 15, (1, 2), (2, 4)), f, indent=2)
+    with open("specs/do_kubernetes.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("do_kubernetes", 42, (1, 2), (3, 6)), f, indent=2)
+    with open("specs/do_networking.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("do_networking", 38, (1, 3), (2, 6)), f, indent=2)
 
     # Railway
     with open("specs/railway_services.json", "w") as f:
         json.dump(generate_mock_openapi_spec("railway_services", 26, (1, 2), (2, 4)), f, indent=2)
     with open("specs/railway_databases.json", "w") as f:
         json.dump(generate_mock_openapi_spec("railway_databases", 14, (1, 2), (1, 3)), f, indent=2)
+    with open("specs/railway_networking.json", "w") as f:
+        json.dump(generate_mock_openapi_spec("railway_networking", 10, (1, 2), (1, 4)), f, indent=2)
 
     # VPS (Generic)
     with open("specs/vps_compute.json", "w") as f:
