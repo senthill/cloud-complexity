@@ -60,7 +60,36 @@ Focus: Cluster, node pool, and network integration API surface.
 
 ---
 
-## 4. Serverless & Functions
+## 4. Storage Benchmarks (Block, Object, File)
+
+### 4.1 Block Storage (Volumes/Disks)
+| Provider | Service | Total APIs | Total Attributes | Complexity Rating |
+| :--- | :--- | :--- | :--- | :--- |
+| **AWS** | EBS (EC2) | 62 | 218 | ![Med](https://img.shields.io/badge/-Med-orange) |
+| **GCP** | Disks (Compute) | 34 | 92 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Azure** | Disks (Compute) | 45 | 118 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **VMWare** | vSAN | 495 | 2,007 | ![High](https://img.shields.io/badge/-High-red) |
+| **Nutanix** | Volumes | 41 | 110 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Render** | Volumes | 12 | 23 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Fly.io** | Volumes | 22 | 71 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Dig.Ocean**| Volumes | 33 | 116 | ![Low](https://img.shields.io/badge/-Low-green) |
+| **Railway** | Volumes | 8 | 11 | ![Low](https://img.shields.io/badge/-Low-green) |
+
+### 4.2 Object Storage (S3/GCS/Blob)
+| Provider | Service | Total APIs | Total Attributes | Complexity Rating |
+| :--- | :--- | :--- | :--- | :--- |
+| **AWS** | S3 | 111 | 714 | ![Med](https://img.shields.io/badge/-Med-orange) |
+| **GCP** | Cloud Storage | 82 | 417 | ![Med](https://img.shields.io/badge/-Med-orange) |
+| **Dig.Ocean**| Spaces | 24 | 72 | ![Low](https://img.shields.io/badge/-Low-green) |
+
+### 4.3 File Storage (EFS/NAS)
+| Provider | Service | Total APIs | Total Attributes | Complexity Rating |
+| :--- | :--- | :--- | :--- | :--- |
+| **AWS** | EFS | 31 | 79 | ![Low](https://img.shields.io/badge/-Low-green) |
+
+---
+
+## 5. Serverless & Functions
 Focus: Deployment and event triggering surface area.
 
 | Provider | Service | Total APIs | Total Attributes | Complexity Rating |
@@ -74,7 +103,7 @@ Focus: Deployment and event triggering surface area.
 
 ---
 
-## 5. Networking Comparison
+## 6. Networking Comparison
 Focus: VPC, Subnet, Firewall, and Service Mesh configuration.
 
 | Provider | Service | Total APIs | Total Attributes | Complexity Rating |
