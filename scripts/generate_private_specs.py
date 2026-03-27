@@ -117,7 +117,8 @@ def main():
     save_mock_spec("azure", "containerservice", 59, (1, 1), (2, 6))
     save_mock_spec("azure", "sql", 112, (1, 1), (2, 8))
     save_mock_spec("azure", "functions", 54, (1, 1), (2, 5))
-    save_mock_spec("azure", "storage", 220, (3, 5), (5, 12))
+    save_mock_spec("azure", "blob", 160, (2, 4), (4, 9))
+    save_mock_spec("azure", "files", 75, (2, 3), (3, 7))
 
     save_mock_spec("alibaba", "vpc", 310, (1, 3), (3, 8), is_alibaba=True)
     save_mock_spec("alibaba", "cs", 139, (1, 1), (2, 4), is_alibaba=True)

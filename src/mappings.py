@@ -32,14 +32,14 @@ SERVICE_MAPPINGS = {
     "object storage": {
         "aws": "s3",
         "gcp": "storage",
-        "azure": "storage",
+        "azure": "blob",
         "alibaba": "oss",
         "digitalocean": "spaces"
     },
     "file storage": {
         "aws": "efs",
         "gcp": "file",
-        "azure": "storage",
+        "azure": "files",
         "alibaba": "nas"
     },
     "kubernetes service": {

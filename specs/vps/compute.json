@@ -6,15 +6,10 @@
   },
   "paths": {
     "/api/v1/vps_compute/resource_0": {
-      "patch": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -22,7 +17,7 @@
       }
     },
     "/api/v1/vps_compute/resource_1": {
-      "put": {
+      "delete": {
         "parameters": [
           {
             "name": "param_0",
@@ -38,15 +33,10 @@
       }
     },
     "/api/v1/vps_compute/resource_2": {
-      "post": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
-            "in": "query",
-            "description": "mock param"
-          },
-          {
-            "name": "param_1",
             "in": "query",
             "description": "mock param"
           }
@@ -65,7 +55,7 @@
       }
     },
     "/api/v1/vps_compute/resource_4": {
-      "put": {
+      "get": {
         "parameters": [
           {
             "name": "param_0",
@@ -81,7 +71,7 @@
       }
     },
     "/api/v1/vps_compute/resource_5": {
-      "patch": {
+      "post": {
         "parameters": [
           {
             "name": "param_0",
@@ -92,7 +82,7 @@
       }
     },
     "/api/v1/vps_compute/resource_6": {
-      "delete": {
+      "patch": {
         "parameters": [
           {
             "name": "param_0",
@@ -103,7 +93,7 @@
       }
     },
     "/api/v1/vps_compute/resource_7": {
-      "get": {
+      "put": {
         "parameters": [
           {
             "name": "param_0",
