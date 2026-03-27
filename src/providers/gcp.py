@@ -12,7 +12,9 @@ class GCPAnalyzer(ProviderAnalyzer):
         os.makedirs(self.specs_dir, exist_ok=True)
 
     def _get_spec_path(self, service_name: str) -> str:
-        return os.path.join(self.specs_dir, f"gcp_{service_name}.json")
+        provider_dir = os.path.join(self.specs_dir, "gcp")
+        os.makedirs(provider_dir, exist_ok=True)
+        return os.path.join(provider_dir, f"{service_name}.json")
 
     def _fetch_spec(self, service_name: str) -> Optional[dict]:
         spec_path = self._get_spec_path(service_name)
@@ -27,7 +29,9 @@ class GCPAnalyzer(ProviderAnalyzer):
         SERVICE_DEFAULTS = {
             "compute": ("compute", "v1"),
             "storage": ("storage", "v1"),
-            "cloudfunctions": ("cloudfunctions", "v1")
+            "cloudfunctions": ("cloudfunctions", "v1"),
+            "container": ("container", "v1"),
+            "sqladmin": ("sqladmin", "v1beta4")
         }
         
         mapping = SERVICE_DEFAULTS.get(service_name)

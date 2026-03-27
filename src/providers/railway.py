@@ -10,7 +10,7 @@ class RailwayAnalyzer(ProviderAnalyzer):
         return "Railway"
 
     def analyze_service(self, service_name: str, filter_keywords: Optional[list] = None) -> Optional[APIMetrics]:
-        spec_path = os.path.join("specs", f"railway_{service_name}.json")
+        spec_path = os.path.join(self.specs_dir, "railway", f"{service_name}.json")
         
         if not os.path.exists(spec_path):
             return None

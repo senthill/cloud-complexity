@@ -10,7 +10,7 @@ class RenderAnalyzer(ProviderAnalyzer):
         return "Render"
 
     def analyze_service(self, service_name: str, filter_keywords: Optional[list] = None) -> Optional[APIMetrics]:
-        spec_path = os.path.join("specs", f"render_{service_name}.json")
+        spec_path = os.path.join(self.specs_dir, "render", f"{service_name}.json")
         
         if not os.path.exists(spec_path):
             return None

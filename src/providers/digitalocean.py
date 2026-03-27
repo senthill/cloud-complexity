@@ -10,7 +10,7 @@ class DigitalOceanAnalyzer(ProviderAnalyzer):
         return "DigitalOcean"
 
     def analyze_service(self, service_name: str, filter_keywords: Optional[list] = None) -> Optional[APIMetrics]:
-        spec_path = os.path.join("specs", f"do_{service_name}.json")
+        spec_path = os.path.join(self.specs_dir, "do", f"{service_name}.json")
         
         if not os.path.exists(spec_path):
             return None

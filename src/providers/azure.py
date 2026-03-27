@@ -11,7 +11,9 @@ class AzureAnalyzer(ProviderAnalyzer):
         os.makedirs(self.specs_dir, exist_ok=True)
 
     def _get_spec_path(self, service_name: str) -> str:
-        return os.path.join(self.specs_dir, f"azure_{service_name}.json")
+        provider_dir = os.path.join(self.specs_dir, "azure")
+        os.makedirs(provider_dir, exist_ok=True)
+        return os.path.join(provider_dir, f"{service_name}.json")
 
     def _fetch_spec_if_missing(self, service_name: str):
         spec_path = self._get_spec_path(service_name)
